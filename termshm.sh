@@ -11,6 +11,7 @@ show_help() {
   echo "  termshm remove <id>             Remove a shortcut"
   echo "  termshm list                    List all set shortcuts"
   echo "  termshm help                    Show help commands"
+  echo "without 'termshm' tag"
   echo ""
 }
 
