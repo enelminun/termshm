@@ -1,4 +1,4 @@
-# tlrunner
+# TERMShM
 Shortcut Manager for Arch Linux
 
 ## Description
