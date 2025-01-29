@@ -6,11 +6,11 @@ show_help() {
   echo "TERMShM - Terminal Shortcut Manager"
   echo ""
   echo "Usage:"
-  echo "  termshm set <path/to/file>       Set a shortcut"
-  echo "  termshm run id:[id]             Run a shortcut"
-  echo "  termshm remove <id>             Remove a shortcut"
-  echo "  termshm list                    List all set shortcuts"
-  echo "  termshm help                    Show help commands"
+  echo "  termshm set <path/to/file> or pkg name        Set a shortcut"
+  echo "  termshm run id:[id]                           Run a shortcut"
+  echo "  termshm remove <id>                           Remove a shortcut"
+  echo "  termshm list                                  List all set shortcuts"
+  echo "  termshm help                                  Show help commands"
   echo "without 'termshm' tag"
   echo ""
 }
@@ -89,7 +89,7 @@ list_shortcuts() {
     return
   fi
   
-  echo -e "ID\t\tPath/To/File"
+  echo -e "ID\t\tPath/To/File (or Package)"
   echo -e "---------------------------------------------"
   
   local id=1
