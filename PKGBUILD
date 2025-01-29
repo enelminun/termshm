@@ -1,6 +1,6 @@
 # Maintainer: Kayra <your-email@example.com>
 pkgname=termshm
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Shortcut Manager'"
 arch=('any')
