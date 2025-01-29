@@ -1,10 +1,10 @@
 # Maintainer: Kayra <your-email@example.com>
 pkgname=termshm
-pkgver=6.0
+pkgver=1.0.0
 pkgrel=1
 pkgdesc="Shortcut Manager'"
 arch=('any')
-url="https://github.com/enelminun/termshm-script"
+url="https://github.com/enelminun/termshm"
 license=('GPL3')
 source=("termshm.sh")
 sha256sums=('SKIP') 
