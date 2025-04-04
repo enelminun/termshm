@@ -11,6 +11,7 @@ Copy the GitHub repository (or download it manually)
 git clone https://github.com/enelminun/termshm.git
 cd termshm
 makepkg -si
+rm -rf termshm
 ```
 # Manuel Installation
 Copy the GitHub repository (or download it manually)
